@@ -167,13 +167,21 @@
 			display: inline-block
 		}
 		
-		linear;
-		animation-iteration-count: infinite;
+.rainbowText {
+  font-family:arial black;
+  font-size:70px;
+  background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 35s linear infinite;
 }
 
-.rainbow{
-		animation: rainbow-colors 2.5s linear;
-		animation-iteration-count: infinite;
+@keyframes move {
+  to {
+    background-position: 4500vh;
+  }
+}		animation-iteration-count: infinite;
 
 		
 		/* Clear out these styles to start fresh or use this as a base! */
@@ -196,7 +204,7 @@
 		<div class="hero-body">
 			<div class="container has-text-centered">
 				<div class="container">
-			           <div class="rainbow">
+			           <div class="rainbowText">
 					   <h4>M e r r y   C h r i s t m a s !</h4>
  				 </div>
 
