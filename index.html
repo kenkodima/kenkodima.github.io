@@ -167,27 +167,17 @@
 			display: inline-block
 		}
 		
+		linear;
+		animation-iteration-count: infinite;
+}
+
+.rainbow{
+		animation: rainbow-colors 2.5s linear;
+		animation-iteration-count: infinite;
+
+		
 		/* Clear out these styles to start fresh or use this as a base! */
 
-@import url(https://fonts.googleapis.com/css?family=Kanit:600);
-
-
-
-.rainbow-text .char { 
-  
-  color: hsl(
-    calc(360deg * var(--char-percent)
-    ), 
-    90%, 
-    65%
-  );
- 
-}
-
-.rainbow-text.animated .char {
-  animation: rainbow-colors 2s linear infinite;
-  animation-delay: calc(-2s * var(--char-percent));
-}
 /* Unfortunately, browsers try to take the shortest distance between transition/animation properties, so a simple `0turn` to `1turn` doesn't get the proper effect. */
 @keyframes rainbow-colors {
   0% { color: hsl(0turn, 90%, 65%); }
@@ -206,7 +196,7 @@
 		<div class="hero-body">
 			<div class="container has-text-centered">
 				<div class="container">
-			           <div class="rainbow-text animated" data-splitting>
+			           <div class="rainbow">
 					   <h4>M e r r y   C h r i s t m a s !</h4>
  				 </div>
 
