@@ -1,2 +1,3 @@
-# kenkodima.github.io
-My website, yep, literally.
+# Welcome to my site
+
+[kenkodima.github.io](https://kenkodima.github.io)

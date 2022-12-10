@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en-US" style="background: black">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dima's Website</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
+	<link rel="stylesheet" href="https://advaith.io/fa/6.0.0-beta2/css/all.css">
+	<meta name="theme-color" content="#00d1b2">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon" sizes="298x298"
+		href="https://cdn.discordapp.com/avatars/190916650143318016/a_a7e037f26b5242d15325bd8739a41520.png?size=1024">
+	<link rel="apple-touch-icon" sizes="256x256"
+		href="https://cdn.discordapp.com/avatars/190916650143318016/a_a7e037f26b5242d15325bd8739a41520.png?size=256">
+	<link rel="apple-touch-icon" sizes="128x128"
+		href="https://cdn.discordapp.com/avatars/190916650143318016/a_a7e037f26b5242d15325bd8739a41520.png">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<link rel="shortcut icon" type="image/png"
+		href="https://cdn.discordapp.com/avatars/190916650143318016/a_a7e037f26b5242d15325bd8739a41520.png">
+	<meta property="og:title" content="Dima's Website">
+	<meta property="og:locale" content="en_US">
+	<meta name="description" content="Hey! This is my personal website. Here you can find cool stuff I work on.">
+	<meta property="og:description" content="Hey! This is my personal website. Here you can find cool stuff I work on.">
+	<meta property="og:image"
+		content="https://cdn.discordapp.com/avatars/190916650143318016/a_a7e037f26b5242d15325bd8739a41520.png?size=1024">
+
+	<link rel="canonical" href="https://kenkodima.github.io">
+	<meta property="og:url" content="https://kenkodima.github.io">
+
+
+	<link rel="preconnect" href="https://botlist.space">
+	<link rel="dns-prefetch" href="https://botlist.space">
+	<link rel="preconnect" href="https://bulma.io">
+	<link rel="dns-prefetch" href="https://bulma.io">
+	<link rel="preconnect" href="https://cdn.discordapp.com">
+	<link rel="dns-prefetch" href="https://cdn.discordapp.com">
+	<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+	<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="dns-prefetch" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://img.shields.io">
+	<link rel="dns-prefetch" href="https://img.shields.io">
+	<link rel="preconnect" href="https://moosic.co">
+	<link rel="dns-prefetch" href="https://moosic.co">
+	<link rel="preconnect" href="https://ssl.gstatic.com">
+	<link rel="dns-prefetch" href="https://ssl.gstatic.com">
+
+	<script src="webp.js"></script>
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQ6T8SL768"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-FQ6T8SL768');
+	</script>
+
+	<style>
+		strong {
+			color: hsl(0, 0%, 96%)
+		}
+
+		.no-webp div.hero-body {
+			background: url('https://ssl.gstatic.com/atari/images/level-header.png') center;
+			background-size: cover
+		}
+
+		.webp div.hero-body {
+			background: url('https://cdn.discordapp.com/attachments/252296452708106240/655293406674944021/level-header.webp') center;
+			background-size: cover
+		}
+
+		.header {
+			color: white;
+			background: linear-gradient(141deg, #009e6c 0, #00d1b2 71%, #00e7eb 100%) no-repeat;
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent
+		}
+
+		.iheader .icon {
+			--fa-primary-color: #00e7eb;
+			--fa-secondary-color: #009e6c;
+			--fa-secondary-opacity: .9
+		}
+
+		.iiheader .icon {
+			--fa-primary-color: #009e6c;
+			--fa-secondary-color: #00e7eb;
+			--fa-primary-opacity: .7;
+			--fa-secondary-opacity: .9
+		}
+
+		.rounded {
+			border-radius: 5px
+		}
+
+		.advbottext {
+			color: white;
+			background-size: cover !important
+		}
+
+		.no-webp .advbottext {
+			background: url('https://advaithbot.xyz/files/background 512.jpg') no-repeat center;
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent
+		}
+
+		.webp .advbottext {
+			background: url('https://advaithbot.xyz/files/background 512.webp') no-repeat center;
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent
+		}
+
+		.dcctext {
+			color: white;
+			background-size: cover !important;
+			background: linear-gradient(141deg, #ffb100 0, #ffc50d 71%, #ffc60d 100%) no-repeat center;
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent
+		}
+
+		.deltext {
+			color: white;
+			background-size: cover !important;
+			background: linear-gradient(141deg, #2f88e5 0, #459be2 71%, #459ce0 100%) no-repeat center;
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent
+		}
+
+		.hicon {
+			margin-right: .5px !important
+		}
+
+		a {
+			color: #209cee
+		}
+
+		a:hover {
+			color: #53d2ff
+		}
+
+		li a img {
+			vertical-align: sub
+		}
+
+		li a {
+			font-size: 17px
+		}
+
+		.text {
+			font-size: 18px
+		}
+
+		span.space {
+			width: 10px;
+			display: inline-block
+		}
+	</style>
+	<script async src="https://arc.io/widget.min.js#e7QiAQhm"></script>
+</head>
+
+<body class="has-text-white-ter">
+	<section class="hero is-medium is-primary is-bold">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<h1 class="title is-1">
+					<span class="header">
+						Dima's Website
+					</span>
+				</h1>
+			    
+				<div class="buttons is-centered">
+					<a target="_blank" rel="noopener" href="https://github.com/kenkodima"
+						class="button is-dark has-text-light" style="background: #333"><span class="icon hicon"><i
+								class="fab fa-github"></i></span>Github</a>
+					<a target="_blank" rel="noopener" href="https://discord.com/users/723236107994529875"
+						class="button is-dark has-text-white" style="background: #5865F2"><span class="icon hicon"><i
+								class="fab fa-discord"></i></span>Discord</a>
+					<a target="_blank" rel="noopener" href="mailto:dimadrumspro@gmail.com"
+						class="button is-dark has-text-white" style="background: #d44638"><span class="icon hicon"><i
+								class="fas fa-envelope"></i></span>Mail</a>
+				</div>
+				<div>
+					<img style="height: 22px"
+						src="https://dev.discordprofiles.me/badge/status/723236107994529875?simple=true" alt="status"
+						title="status" loading="lazy">
+					<img style="height: 22px" src="https://dev.discordprofiles.me/badge/playing/723236107994529875"
+						alt="playing" title="current game" loading="lazy">
+					<img style="height: 22px" src="https://dev.discordprofiles.me/badge/vscode/723236107994529875"
+						alt="vscode" title="coding in VS Code" loading="lazy">
+					<a href="https://dev.discordprofiles.me/openspotify/190916650143318016" target="_blank"
+						rel="noopener"><img style="height: 22px"
+							src="https://dev.discordprofiles.me/badge/spotify/723236107994529875" alt="spotify"
+							title="listening with Spotify" loading="lazy"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section">
+		
+		<div class="container">
+			<p class="text">
+				Hey! Welcome to my personal website. Here you can find cool stuff I work on.
+			</p>
+		</div><br>
+		<div class="container">
+			<h2 class="title has-text-white-ter is-2">
+				<span class="header">
+					Projects
+				</span>
+			</h2>
+			<p class="text">I am currently working on a AI project that helps you communicate, generate images and help
+				you, sort of Alexa but with an built-in AI. You can check what I am actually doing underneath the
+				header. Be sure to check this site regularly, for updates like seasons, Christmas and releases.</p>
+		</div><br>
+
+
+		<div class="container">
+			<h3 class="title is-4">
+				<span class="header">
+					Currently Working On
+				</span>
+			</h3>
+			<h3 class="title is-4">
+
+		</div>
+		<div class="column has-text-centered">
+			<a href="https://google.com" target="_blank" rel="noopener">
+				<picture>
+					<source type="image/webp"
+						srcset="https://cdn.discordapp.com/attachments/871668264894353468/1050868501000241172/Untitled_Artwork.png?size=256 256w, https://cdn.discordapp.com/avatars/293731150239891456/f7d78d0c7e6522ed296bfa315b3a1969.webp?size=512 512w, https://cdn.discordapp.com/avatars/293731150239891456/f7d78d0c7e6522ed296bfa315b3a1969.webp?size=1024 1024w"
+						sizes="(max-width: 768px) 80vw, (min-width: 769px) 20vw">
+					<source type="image/png"
+						srcset="https://cdn.discordapp.com/attachments/871668264894353468/1050868501000241172/Untitled_Artwork.png?size=256 256w, https://cdn.discordapp.com/avatars/293731150239891456/f7d78d0c7e6522ed296bfa315b3a1969.png?size=512 512w, https://cdn.discordapp.com/avatars/293731150239891456/f7d78d0c7e6522ed296bfa315b3a1969.png?size=1024 1024w"
+						sizes="(max-width: 768px) 80vw, (min-width: 769px) 20vw">
+
+				</picture>
+			</a>
+			<h4 class="title is-3"><a href="https://widgetbot.io"><span style="color: #707fe5">Artifa</span></a></h4>
+			<p style="color: #707fe5">An AI that I am currently working on. Can be used to communicate, generate art
+				<br> and more... Powered by Hydrol.</p><br>
+		</div>
+		</div>
+		<br>
+		</div>
+
+		<div class="container">
+			<h3 class="title is-4">
+				<span class="header">
+					More
+				</span>
+			</h3>
+			<div class="columns">
+				<div class="column has-text-centered">
+					<a href="https://discordextremelist.xyz" target="_blank" rel="noopener">
+						<picture>
+							<source type="image/webp"
+								srcset="https://discordextremelist.xyz/img/logo-128px.webp 128w, https://discordextremelist.xyz/img/logo-192px.webp 192w, https://discordextremelist.xyz/img/logo.webp 512w"
+								sizes="(max-width: 768px) 80vw, (min-width: 769px) 20vw">
+							<source type="image/png"
+								srcset="https://discordextremelist.xyz/img/logo-128px.png 128w, https://discordextremelist.xyz/img/logo-192px.png 192w, https://discordextremelist.xyz/img/logo.png 512w"
+								sizes="(max-width: 768px) 80vw, (min-width: 769px) 20vw">
+							<img style="width: 90%" class="rounded" src="https://discordextremelist.xyz/img/logo.png"
+								alt="Discord Extreme List" loading="lazy">
+						</picture>
+					</a>
+					<h4 class="title is-3"><span class="deltext"><a href="https://discordextremelist.xyz">Discord
+								Extreme List</a></span></h4>
+					<p style="color: #459be2">Discord's unbiased list, giving bots and servers of all sizes a big
+						chance!</p><br>
+					<p>
+						<a href="https://discord.gg/XvvbSjv" target="_blank" rel="noopener"><img height="20"
+								src="https://img.shields.io/discord/568567800910839811?color=%235865F2&logo=discord&logoColor=white"
+								alt="Discord" loading="lazy"></a>
+						<a href="https://twitter.com/extremelist" target="_blank" rel="noopener"><img height="20"
+								src="https://img.shields.io/twitter/follow/extremelist?color=1da1f2&label=follow&logo=twitter&logoColor=white&style=flat"
+								alt="Twitter" loading="lazy"></a>
+						<a href="https://github.com/discordextremelist" target="_blank" rel="noopener"><img height="20"
+								src="https://img.shields.io/github/stars/discordextremelist?color=%23161b22&logo=github"
+								alt="GitHub" loading="lazy"></a>
+					</p>
+				</div>
+				<div class="column has-text-centered">
+					<a href="https://dynocc.xyz" target="_blank" rel="noopener">
+						<picture>
+							<source type="image/webp"
+								srcset="https://cdn.discordapp.com/attachments/252296452708106240/655292853970403328/dcc_transparent_square_half.webp 516w, https://cdn.discordapp.com/attachments/252296452708106240/655292910174208010/dcc_transparent_square.webp 1032w"
+								sizes="(max-width: 768px) 80vw, (min-width: 769px) 20vw">
+							<source type="image/png"
+								srcset="https://cdn.discordapp.com/attachments/252296452708106240/655292832806076441/dcc_transparent_square_half.png 516w, https://cdn.discordapp.com/attachments/252296452708106240/655292890544603148/dcc_transparent_square.png 1032w"
+								sizes="(max-width: 768px) 80vw, (min-width: 769px) 20vw">
+							<img style="width: 90%"
+								src="https://cdn.discordapp.com/attachments/252296452708106240/655292890544603148/dcc_transparent_square.png"
+								alt="Dyno Custom Commands" loading="lazy">
+						</picture>
+					</a>
+					<h4 class="title is-3"><span class="dcctext"><a href="https://dynocc.xyz">Dyno Custom
+								Commands</a></span></h4>
+					<p style="color: #ffb100">A community-driven collection of custom commands for the popular bot Dyno,
+						as well as a 1000+ member community about custom commands.</p><br>
+					<p>
+						<a href="https://discord.gg/D3K3Fqz" target="_blank" rel="noopener"><img height="20"
+								src="https://img.shields.io/discord/333058206198661132?color=%235865F2&logo=discord&logoColor=white"
+								alt="Discord" loading="lazy"></a>
+						<a href="https://github.com/DynoCC/Dyno-Custom-Commands" target="_blank" rel="noopener"><img
+								height="20"
+								src="https://img.shields.io/github/stars/DynoCC/Dyno-Custom-Commands?color=%23161b22&logo=github"
+								alt="GitHub" loading="lazy"></a>
+					</p>
+				</div>
+				<div class="column has-text-centered">
+					<a href="https://stickers.advaith.io" target="_blank" rel="noopener">
+						<img style="width: 90%" src="https://stickers.advaith.io/img/icon.png" alt="Discord Stickers"
+							loading="lazy">
+					</a>
+					<h4 class="title is-3"><a href="https://stickers.advaith.io" target="_blank" rel="noopener"><span
+								style="color: #b9bbbe">Discord Sticker List</span></a></h4>
+					<p style="color: #b9bbbe">A list of all the currently available Discord stickers, with sticker
+						previews and data.</p><br>
+					<p>
+						<a href="https://twitter.com/DiscordStickers" target="_blank" rel="noopener"><img height="20"
+								src="https://img.shields.io/twitter/follow/DiscordStickers?color=1da1f2&label=follow&logo=twitter&logoColor=white&style=flat"
+								alt="Twitter" loading="lazy"></a>
+						<a href="https://github.com/advaith1/stickers" target="_blank" rel="noopener"><img height="20"
+								src="https://img.shields.io/github/stars/advaith1/stickers?color=%23161b22&logo=github"
+								alt="GitHub" loading="lazy"></a>
+					</p>
+				</div>
+				<div class="column has-text-centered">
+					<a href="https://rollouts.advaith.io" target="_blank" rel="noopener">
+						<svg style="width: 90%; aspect-ratio: 1;" aria-hidden="true" focusable="false" role="img"
+							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<defs>
+								<linearGradient id="gradient" gradientTransform="rotate(39)">
+									<stop offset="0" stop-color="#009e6c" />
+									<stop offset="71%" stop-color="#00d1b2" />
+									<stop offset="100%" stop-color="#00e7eb" />
+								</linearGradient>
+							</defs>
+							<path fill="url('#gradient')"
+								d="M437.2 403.5L319.1 215L319.1 64h7.1c13.25 0 23.1-10.75 23.1-24l-.0002-16c0-13.25-10.75-24-23.1-24H120C106.8 0 96.01 10.75 96.01 24l-.0002 16c0 13.25 10.75 24 23.1 24h7.1L128 215l-117.2 188.5C-18.48 450.6 15.27 512 70.89 512h306.2C432.7 512 466.5 450.5 437.2 403.5zM137.1 320l48.15-77.63C189.8 237.3 191.9 230.8 191.9 224l.0651-160h63.99l-.06 160c0 6.875 2.25 13.25 5.875 18.38L309.9 320H137.1z">
+							</path>
+						</svg>
+					</a>
+					<h4 class="title is-3"><a href="https://rollouts.advaith.io" target="_blank" rel="noopener"><span
+								class="header">Discord Server Experiment Rollouts</span></a></h4>
+					<p style="color: #00d1b2">Lists Discord's server experiments and their current rollouts, treatments,
+						and overrides.</p><br>
+					<p>
+						<a href="https://github.com/advaith1/rollouts" target="_blank" rel="noopener"><img height="20"
+								src="https://img.shields.io/github/stars/advaith1/rollouts?color=%23161b22&logo=github"
+								alt="GitHub" loading="lazy"></a>
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="container">
+			<h2 class="title has-text-white-ter is-2">
+				<span class="header">
+					All Projects
+				</span>
+			</h2>
+			<p class="title is-5">
+				<span class="iheader">
+					<span class="icon"><i class="fad fa-robot"></i></span> <span class="header">Discord Bots That I
+						Recommand</span>
+				</span>
+			</p>
+			<div class="content">
+				<ul>
+					<li><a href="https://advaithbot.xyz" target="_blank" rel="noopener">AdvaithBot</a>
+					<li><a href="https://moosic.co" target="_blank" rel="noopener">Moosic</a>
+					<li><a href="https://yesno.advaith.io" target="_blank" rel="noopener">YesNo</a>
+					<li><a href="https://discord.com/oauth2/authorize?client_id=533095070145052716&scope=bot"
+							target="_blank" rel="noopener">AutoDelete</a>
+					<li><a href="https://widgetbot.io" target="_blank" rel="noopener">WidgetBot</a>
+					<li><a href="https://github.com/advaith1/slashtags" target="_blank" rel="noopener">Slashtags</a>
+					<li><a href="https://github.com/advaith1/activities" target="_blank" rel="noopener">Activities</a>
+					<li><a href="https://github.com/advaith1/dictionary" target="_blank" rel="noopener">Dictionary</a>
+				</ul>
+			</div>
+			<p class="title is-5">
+				<span class="iiheader">
+					<span class="icon"><i class="fad fa-browser"></i></span> <span class="header">Sites</span>
+				</span>
+			</p>
+			<div class="content">
+				<ul>
+					<li><a href="https://discordextremelist.xyz" target="_blank" rel="noopener">Discord Extreme List</a>
+					<li><a href="https://dynocc.xyz" target="_blank" rel="noopener">Dyno Custom Commands</a>
+					<li><a href="https://clickwiki.github.io" target="_blank" rel="noopener">ClickWiki</a>
+					<li><a href="https://stickers.advaith.io" target="_blank" rel="noopener">Discord Sticker List</a>
+					<li><a href="https://rollouts.advaith.io" target="_blank" rel="noopener">Discord Server Experiment
+							Rollouts</a>
+					<li><a href="https://libs.advaith.io" target="_blank" rel="noopener">Discord API Library
+							Comparisons</a>
+				</ul>
+			</div>
+
+			<p class="title is-5">
+				<span class="iiheader">
+					<span class="icon"><i class="fa-sharp fa-solid fa-people-simple" style="color:#00d1b2"></i></span>
+					<span class="header">Contributors</span>
+				</span>
+			</p>
+			<div class="content">
+				<ul>
+					<li><a href="https://github.com/advaith1" target="_blank" rel="noopener">advaith1</a>
+					<li><a href="https://github.com/kenkodima" target="_blank" rel="noopener">kenkodima</a>
+					<li><a href="https://github.com/DuckMasterAI" target="_blank" rel="noopener">DuckMasterAI</a>
+				</ul>
+			</div>
+
+		</div><br>
+		<div class="container">
+			<p class="text">This site was made by hand with HTML and CSS. <a href="https://bulma.io" target="_blank"
+					rel="noopener"><img src="https://bulma.io/images/made-with-bulma--semiwhite.png"
+						alt="Made with Bulma" width="128" height="24" style="vertical-align: sub" loading="lazy"></a>.
+				Icons powered by <a href="https://fontawesome.com" target="_blank" rel="noopener">Font Awesome</a>.
+				Badges powered by <a href="https://shields.io" target="_blank" rel="noopener">Shields.io</a>. <a
+					href="https://ssl.gstatic.com/atari/images/level-header.png" target="_blank" rel="noopener">Header
+					image</a> by Google. Hosted on <a href="https://pages.github.com/" target="_blank"
+					rel="noopener">GitHub Pages</a>. You can look at <a
+					href="https://github.com/advaith1/advaith1.github.io" target="_blank" rel="noopener">the source</a>.
+				Thanks for checking out my site.</p><br>
+			<p class="text">© 2022 Kenko Dima, Founder of Hydrol</p><br>
+			<p class="has-text-centered"><a href="https://www.battleforthenet.com" target="_blank" rel="noopener">
+
+				</a></p>
+		</div>
+
+		<script>
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('/sw.js')
+				})
+			}
+
+			window.addEventListener('beforeinstallprompt', (e) => {
+				e.preventDefault()
+			})
+			console.log("whatcha doing? 0734, just a hint, would not be easy without it...")
+		</script>
+</body>
+
+</html>
